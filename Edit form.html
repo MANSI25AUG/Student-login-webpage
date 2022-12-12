@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Portal</title>
+    <link href="images/u.png" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+            <div class="row">
+                <div class="column">
+                    <img src="images/u.png">
+                </div>
+                <div class="column">
+                    <h3>Student Details</h3>
+                </div>
+            </div>
+            
+            <h4>All fields are required</h4>
+            
+            <label for="name">Name: </label>
+            <input placeholder="Your name" type="text" id="name" required>
+            
+            <label for="departement">Departement: </label>
+            <input type="text" placeholder="Enter departement" required>
+            
+            <lable for="code">Reg. No.: </lable>
+            <input placeholder="Reg. No." type="text" required>
+            
+            <lable for="hod">Mobile No.: </lable>
+            <input placeholder="Mobile No." type="text" required>
+            
+            <label for="replace">Address: </label>
+            <input type="text" id="address" placeholder="Address" required>
+            
+            <lable for="leaves">Date of Birth: </lable>
+            <input placeholder="DOB" type="date" id="DOB" required> 
+            
+
+            <div class="row">
+                <div class="column">
+                    <button name="submit" type="submit" id="contact-submit">Submit</button>
+                </div>
+                <div class="column">
+                    <button name="reset" type="submit" id="contact-reset">Reset</button>
+                </div>
+            </div>
+        </form>
+      </div>
+</body>
+</html>
